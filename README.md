@@ -16,3 +16,4 @@ Setting up a python development environment
     * TODO git aliases
     * git config --global pager.branch false
     * TODO bash tricks https://github.com/nibalizer/bash-tricks/blob/master/bash_tricks.sh
+    * TODO make rmf function that does this `rm -rf /some/path/ && mkdir /some/path/`

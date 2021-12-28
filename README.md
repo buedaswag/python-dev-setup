@@ -12,3 +12,7 @@ Setting up a python development environment
     * https://github.com/LDSSA/batch5-students#setup-git-and-github
 * docker
     * https://www.docker.com/products/docker-desktop
+* shortcuts
+    * TODO git aliases
+    * git config --global pager.branch false
+    * TODO bash tricks https://github.com/nibalizer/bash-tricks/blob/master/bash_tricks.sh

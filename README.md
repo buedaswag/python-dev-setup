@@ -17,3 +17,5 @@ Setting up a python development environment
     * git config --global pager.branch false
     * TODO bash tricks https://github.com/nibalizer/bash-tricks/blob/master/bash_tricks.sh
     * TODO make rmf function that does this `rm -rf /some/path/ && mkdir /some/path/`
+* clipboard manager
+    * https://ditto-cp.sourceforge.io/#:~:text=Ditto%20is%20an%20extension%20to,formats%2C%20.....

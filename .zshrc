@@ -27,3 +27,38 @@ function mkvenvr() {
 
 ####### DEFAULT VIRTUAL ENVIRONMENT
 workon mig-venv
+export PATH=$PATH:$HOME/bin
+
+############################################################
+# ADDED BY MIG - https://github.com/nibalizer/bash-tricks/blob/master/bash_tricks.sh
+############################################################
+# Aliases
+#========
+
+# I'm a bad typist
+
+alias sl=ls
+alias mdkir=mkdir
+alias soruce=source
+alias souce=source
+
+# Short things are better
+
+alias v=vagrant
+alias g=git
+alias d=docker
+alias jn='jupyter notebook'
+
+# Short things are better (git)
+git config --global alias.c checkout
+git config --global alias.b branch
+git config --global alias.s status
+alias gs='git status'
+alias sg='git status'
+alias ga='git add .'
+
+# Short things are better (vscode)
+alias cn='code ~/ws/notes'
+
+# Just fun
+alias fucking=sudo

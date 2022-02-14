@@ -29,6 +29,9 @@ function mkvenvr() {
 workon mig-venv
 export PATH=$PATH:$HOME/bin
 
+####### GIT
+git config --global pager.branch false
+
 ############################################################
 # ADDED BY MIG - https://github.com/nibalizer/bash-tricks/blob/master/bash_tricks.sh
 ############################################################

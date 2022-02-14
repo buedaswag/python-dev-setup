@@ -12,11 +12,8 @@ Setting up a python development environment
     * https://github.com/LDSSA/batch5-students#setup-git-and-github
 * docker
     * https://www.docker.com/products/docker-desktop
-* shortcuts
-    * TODO git aliases
-    * git config --global pager.branch false
-    * TODO bash tricks https://github.com/nibalizer/bash-tricks/blob/master/bash_tricks.sh
-    * TODO make rmf function that does this `rm -rf /some/path/ && mkdir /some/path/`
+* ~/.zshrc
+    * add the contents of file .zshrc of this repo to the end of the ~/.zshrc in our machine
 * clipboard manager
     * https://ditto-cp.sourceforge.io/#:~:text=Ditto%20is%20an%20extension%20to,formats%2C%20.....
     * https://www.youtube.com/watch?v=bBvKvJfWw2c

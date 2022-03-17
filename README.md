@@ -5,7 +5,7 @@ Setting up a python development environment
 ## Steps
 
 * setup wsl, vscode etc
-    * https://yduman.github.io/blog/wsl2-setup/
+    * https://yduman.github.io/wsl2.html
 * setup python, venv, git, etc (lacks isntructions for setting up ssh)
     * https://github.com/LDSSA/ds-prep-course-2021
 * setup git 

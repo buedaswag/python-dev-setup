@@ -22,3 +22,4 @@ Mac
     * https://docs.brew.sh/Installation
     * https://rectangleapp.com/
     * https://pilotmoon.com/scrollreverser/
+    * `export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"`

@@ -2,6 +2,8 @@
 # ADDED BY MIG
 ############################################################
 
+plugins=(git docker zsh-autosuggestions zsh-syntax-highlighting)
+
 # tfenv
 export PATH="$HOME/.tfenv/bin:$PATH"
 

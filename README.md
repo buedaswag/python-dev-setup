@@ -6,6 +6,7 @@ Setting up a python development environment
 
 * setup wsl, vscode etc
     * https://yduman.github.io/wsl2.html
+    * [https://stackoverflow.com/questions/30884131/remove-trailing-spaces-automatically-or-with-a-shortcut](https://stackoverflow.com/a/53663494)
 * setup python, venv, git, etc (lacks isntructions for setting up ssh)
     * https://github.com/LDSSA/ds-prep-course-2021
 * setup git 
@@ -25,3 +26,7 @@ Mac
     * https://rectangleapp.com/
     * https://pilotmoon.com/scrollreverser/
     * `export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"`
+
+Vscode extensions
+    * DavidAnson.vscode-markdownlint
+    * ban.spellright

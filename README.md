@@ -17,6 +17,7 @@ Setting up a python development environment
     * add the contents of file .zshrc of this repo to the end of the ~/.zshrc in our machine
     * `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
     * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+    * `git config --global pager.branch false`
 * clipboard manager
     * https://ditto-cp.sourceforge.io/#:~:text=Ditto%20is%20an%20extension%20to,formats%2C%20.....
     * https://www.youtube.com/watch?v=bBvKvJfWw2c

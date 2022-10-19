@@ -81,6 +81,7 @@ alias v=vagrant
 alias g=git
 alias d=docker
 alias jn='jupyter notebook'
+alias hg='history | grep'
 
 # Short things are better (git)
 git config --global alias.c checkout

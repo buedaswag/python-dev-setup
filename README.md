@@ -22,12 +22,20 @@ Setting up a python development environment
     * https://ditto-cp.sourceforge.io/#:~:text=Ditto%20is%20an%20extension%20to,formats%2C%20.....
     * https://www.youtube.com/watch?v=bBvKvJfWw2c
 
-Mac
-    * https://docs.brew.sh/Installation
-    * https://rectangleapp.com/
-    * https://pilotmoon.com/scrollreverser/
-    * `export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"`
+### Mac
+
+* https://docs.brew.sh/Installation
+* https://rectangleapp.com/
+* https://pilotmoon.com/scrollreverser/
+* `export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"`
 
 Vscode extensions
-    * DavidAnson.vscode-markdownlint
-    * ban.spellright
+
+* DavidAnson.vscode-markdownlint
+* ban.spellright
+
+## Useful Commands
+
+```bash
+code -d <file 1> <file 2>
+```

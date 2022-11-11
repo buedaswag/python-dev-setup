@@ -80,8 +80,9 @@ alias souce=source
 alias v=vagrant
 alias g=git
 alias d=docker
-alias jn='jupyter notebook'
+alias j='jupyter notebook'
 alias hg='history | grep'
+alias t='terraform'
 
 # Short things are better (git)
 git config --global alias.c checkout

@@ -40,5 +40,6 @@ Vscode extensions
 ## Useful Commands
 
 ```bash
+# vscode diff two files
 code -d <file 1> <file 2>
 ```

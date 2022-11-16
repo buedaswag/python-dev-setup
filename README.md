@@ -43,3 +43,5 @@ Vscode extensions
 # vscode diff two files
 code -d <file 1> <file 2>
 ```
+
+Looking at differences between folders of different repos <https://www.geeksforgeeks.org/diff-command-linux-examples/>

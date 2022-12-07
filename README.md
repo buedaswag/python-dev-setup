@@ -8,7 +8,6 @@ Setting up a python development environment
     * https://yduman.github.io/wsl2.html
     * [https://stackoverflow.com/questions/30884131/remove-trailing-spaces-automatically-or-with-a-shortcut](https://stackoverflow.com/a/53663494)
     * https://stackoverflow.com/questions/38561881/how-do-i-turn-on-text-wrapping-by-default-in-vs-code
-    * https://stackoverflow.com/a/73391763
 * setup python, venv, git, etc (lacks isntructions for setting up ssh)
     * https://github.com/LDSSA/ds-prep-course-2021
 * setup git 

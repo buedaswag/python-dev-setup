@@ -44,3 +44,5 @@ code -d <file 1> <file 2>
 ```
 
 Looking at differences between folders of different repos <https://www.geeksforgeeks.org/diff-command-linux-examples/>
+
+* The key-map to auto-format the selected JSON is ALT-SHIFT-F

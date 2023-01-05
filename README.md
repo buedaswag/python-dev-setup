@@ -46,3 +46,7 @@ code -d <file 1> <file 2>
 Looking at differences between folders of different repos <https://www.geeksforgeeks.org/diff-command-linux-examples/>
 
 * The key-map to auto-format the selected JSON is ALT-SHIFT-F
+
+Compare 2 commits in vscode
+
+* https://stackoverflow.com/questions/57087860/using-vscode-how-do-i-compare-two-non-consecutive-commits-on-a-file-in-gitlens

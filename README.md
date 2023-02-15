@@ -30,6 +30,7 @@ Setting up a python development environment
 * https://pilotmoon.com/scrollreverser/
 * `export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"`
 * https://stackoverflow.com/questions/27616474/how-can-i-scroll-up-more-increase-the-scroll-buffer-in-iterm2
+* https://apple.stackexchange.com/a/345228
 
 Vscode extensions
 

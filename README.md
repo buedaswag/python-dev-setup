@@ -22,6 +22,8 @@ Setting up a python development environment
 * clipboard manager
     * https://ditto-cp.sourceforge.io/#:~:text=Ditto%20is%20an%20extension%20to,formats%2C%20.....
     * https://www.youtube.com/watch?v=bBvKvJfWw2c
+* notes
+   * cd ~/ws/notes && chmod -R 700 .
 
 ### Mac
 

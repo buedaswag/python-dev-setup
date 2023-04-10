@@ -48,6 +48,11 @@ code -d <file 1> <file 2>
 
 Looking at differences between folders of different repos <https://www.geeksforgeeks.org/diff-command-linux-examples/>
 
+```bash
+# vscode diff two files
+diff -r directory1/ directory2/
+```
+
 * The key-map to auto-format the selected JSON is ALT-SHIFT-F
 
 Compare 2 commits in vscode

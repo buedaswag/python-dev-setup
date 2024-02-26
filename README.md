@@ -21,8 +21,8 @@ Setting up a python development environment
     * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
     * `git config --global pager.branch false`
 * clipboard manager
-    * https://ditto-cp.sourceforge.io/#:~:text=Ditto%20is%20an%20extension%20to,formats%2C%20.....
-    * https://www.youtube.com/watch?v=bBvKvJfWw2c
+    * [windows ditto](https://ditto-cp.sourceforge.io/) - [tutorial](https://www.youtube.com/watch?v=bBvKvJfWw2c)
+    * [mac maccy](https://maccy.app/)
 * notes
    * cd ~/ws/notes && chmod -R 700 .
 

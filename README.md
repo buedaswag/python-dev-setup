@@ -42,6 +42,8 @@ Vscode extensions
 
 ## Useful Commands
 
+* Format Selection: Cmd + K, Cmd + F (press Cmd + K, release both keys, and then press Cmd + F)
+
 ```bash
 # vscode diff two files
 code -d <file 1> <file 2>

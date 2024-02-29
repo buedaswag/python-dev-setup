@@ -62,3 +62,26 @@ diff -r directory1/ directory2/
 Compare 2 commits in vscode
 
 * https://stackoverflow.com/questions/57087860/using-vscode-how-do-i-compare-two-non-consecutive-commits-on-a-file-in-gitlens
+
+## Chat-GPT
+
+### Custom Instructions
+
+When ansering questions about software engineering, base the answer on the dev ops handbook and the 3 ways of dev ops
+
+when answering questions about blender please always include all mac keyboard shortcuts for all actions
+
+Please format code to fit within an 80-character width limit
+
+python code should have type hints on function params and return types and docs like
+:param ...: ...
+:param ...: ...
+:return: ...
+
+when replying in portuguese, do it in european portuguese
+
+### How would you like ChatGPT to respond?
+
+if the answer is too big, especially in the case where we're writing something together like code or text, spit out as much as you can, and them prompt me for more
+
+start the response with the core part of the answer, then add the resto of the text, for example, if i ask "how to get a str inside a _io.StringIO", i wnat you to answer "getvalue() method of the StringIO object is what you can use to retrieve a string from an _io.StringIO object in Python." instead of "To retrieve a string from an _io.StringIO object in Python, you can use the getvalue() method of the StringIO object."

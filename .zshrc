@@ -125,7 +125,7 @@ function workon() {
     source $WORKON_HOME/$1/bin/activate;
 }
 function lsvenv() {
-    ls $WORKON_HOME
+    ls -la $WORKON_HOME
 }
 function rmvenv() {
     rm -r $WORKON_HOME/$1
@@ -154,7 +154,7 @@ function mkvenvr38() {
 }
 
 ####### DEFAULT VIRTUAL ENVIRONMENT
-workon mig-venv38
+workon mig-venv310
 export PATH=$PATH:$HOME/bin
 
 alias pythonv='python3 --version'
@@ -188,6 +188,18 @@ function azlogin {
 }
 
 ############################################################
+# terraform shortcuts
+############################################################
+
+function tfcleanup() {
+    find . -name "planfile" -type f -delete
+    find . -name ".terraform.*" -type f -delete
+    find . -name "terraform.*" -type f -delete
+    find . -name ".terraform" -type d -exec rm -rf {} +
+    find . -name "terraform.tfstate.d" -type d -exec rm -rf {} +
+}
+
+############################################################
 # Short things are better - https://github.com/nibalizer/bash-tricks/blob/master/bash_tricks.sh
 ############################################################
 # Aliases
@@ -206,8 +218,24 @@ alias v=vagrant
 alias g=git
 alias d=docker
 alias j='jupyter notebook'
+alias jn='jupyter notebook'
 alias hg='history | grep'
 alias tf='terraform'
+alias 'c.'='code .'
+alias py='python'
+alias lvenv='lsvenv'
+
+# history grep tail
+hgt() {
+  if [ -z "$1" ]; then
+    echo "Error: Missing search string argument"
+    return 1
+  fi
+
+  local search_string="$1"
+  local tail_count=${2:-10}
+  history | grep "$search_string" | tail -n "$tail_count"
+}
 
 # Short things are better (git)
 git config --global alias.c checkout
@@ -217,11 +245,42 @@ alias gs='git status'
 alias sg='git status'
 alias ga='git add .'
 
+# Function to git add, commit and push in one command
+gacp() {
+    # Get the list of modified files (first 10 files)
+    modified_files=$(git status -s | head -n 10 | awk '{print $2}')
+
+    # Combine modified files into a commit message
+    if [[ -z "$modified_files" ]]; then
+        echo "No changes to commit."
+        return 1
+    fi
+    commit_message="Modified files: $(echo "$modified_files" | tr '\n' ', ' | sed 's/, $//')"
+
+    # Add all changes
+    git add .
+
+    # Commit with the list of modified files as the message
+    git commit -m "$commit_message"
+
+    # Get the current branch
+    current_branch=$(git branch --show-current)
+
+    # Ensure we have a valid branch
+    if [[ -z "$current_branch" ]]; then
+        echo "Could not determine the current branch."
+        return 1
+    fi
+
+    # Push to the current branch
+    git push origin "$current_branch"
+}
+
 # Short things are better (kubernetes)
 alias k='kubectl'
 
 # Short things are better (vscode)
-alias cn='code ~/ws/notes'
+alias c='code'
 
 # Short things are better (django)
 alias pm='python manage.py'
@@ -229,5 +288,6 @@ alias pm='python manage.py'
 # Just fun
 alias fucking=sudo
 
-# openssl
-export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
+############################################################
+# END ADDED BY MIG
+############################################################
